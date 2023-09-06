@@ -19,7 +19,8 @@ export default function EditarProduto(){
     return(
         <main>
             <h1>Editando o Produto</h1>
-            
+            <p>Editando os dados do produto: {produto.nome}</p>
+            <button onClick={salvar}>Salvar</button>
         </main>
     )
 }
