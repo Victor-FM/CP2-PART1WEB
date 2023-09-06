@@ -10,7 +10,11 @@ export default function EditarProduto(){
     const proc = lista.filter(prod => prod.id == id)
     const produto = proc[0]
 
-   
+    const salvar = ()=>{
+        alert(`Produto : ${produto.nome} editado com sucesso!`)
+        return navegacao('/produtos')
+    }
+
 
     return(
         <main>
